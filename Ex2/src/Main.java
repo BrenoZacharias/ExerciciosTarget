@@ -4,7 +4,9 @@ public class Main {
     public static void main(String[] args) {
         int n1 = 0, n2 = 1, nInformado;
         nInformado = 34;
+
         ArrayList<Integer> seqFibonacci = new ArrayList<Integer>();
+
         while (n1 < nInformado) {
             seqFibonacci.add(n1);
             seqFibonacci.add(n2);
